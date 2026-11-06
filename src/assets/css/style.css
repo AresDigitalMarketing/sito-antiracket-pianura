@@ -252,3 +252,9 @@ dialog.lightbox::backdrop { background: rgba(8, 18, 38, .94); }
 .scheda-corpo.compatto { padding: 14px 18px 16px; gap: 4px; }
 .scheda-corpo.compatto .scheda-titolo { font-size: 18px !important; line-height: 1.3; }
 .scheda-corpo.compatto .scheda-azione { font-size: 14px; }
+
+/* Profili social */
+.social { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.social a { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; padding: 8px 0; min-height: 44px; }
+.social svg { flex: none; }
+.seguici { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 18px; padding-top: 20px; border-top: 1px solid var(--bordo); }

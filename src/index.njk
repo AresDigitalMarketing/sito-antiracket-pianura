@@ -116,3 +116,12 @@ layout: layouts/base.njk
   </div>
 </section>
 {%- endif %}
+
+{%- if site.facebook or site.instagram or site.youtube %}
+<section class="sezione" aria-labelledby="seguici">
+  <div class="contenitore" style="display:flex;flex-wrap:wrap;gap:16px 40px;align-items:center">
+    <h2 id="seguici">Seguici sui social</h2>
+    {% include "social.njk" %}
+  </div>
+</section>
+{%- endif %}
