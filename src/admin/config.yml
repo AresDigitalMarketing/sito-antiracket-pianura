@@ -5,6 +5,7 @@ backend:
   name: github
   repo: AresDigitalMarketing/sito-antiracket-pianura
   branch: main
+  base_url: https://sveltia-cms-auth.aresdigitalmarketing.workers.dev
   commit_messages:
     create: "Nuovo contenuto: {{collection}} “{{slug}}”"
     update: "Modifica: {{collection}} “{{slug}}”"
