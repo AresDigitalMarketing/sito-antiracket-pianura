@@ -79,8 +79,8 @@ collections:
       - { label: Titolo, name: title, widget: string }
       - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
-      - { label: File del comunicato (PDF o immagine), name: file, widget: file, required: false }
-      - { label: Immagine di anteprima, name: image, widget: image, required: false, hint: "Facoltativa. Se carichi un’immagine come file del comunicato, viene usata quella." }
+      - { label: PDF del comunicato, name: file, widget: file, required: false, hint: "Il file che i visitatori scaricano. Si consiglia il PDF." }
+      - { label: Immagine di anteprima, name: image, widget: image, required: false, hint: "L’immagine mostrata nell’elenco e nella pagina del comunicato (ad esempio la prima pagina del PDF salvata come JPG)." }
       - { label: Testo, name: body, widget: markdown, required: false }
 
   - name: fotogallery
