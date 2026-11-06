@@ -1,5 +1,8 @@
 ---
 title: "Presentazione del fumetto “La scelta di Giacomo”"
+titolo_righe: |-
+  Presentazione del fumetto
+  “La scelta di Giacomo”
 date: 2025-11-01
 cover: https://www.antiracketpianura.it/wp-content/gallery/presentazione-fumetto/Presentazione-Fumetto-01.jpg
 foto:

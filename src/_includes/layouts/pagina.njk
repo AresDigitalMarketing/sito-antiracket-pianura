@@ -4,7 +4,7 @@ layout: layouts/base.njk
 {%- import "schede.njk" as s -%}
 <div class="contenitore pagina-testa">
   <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › {{ title }}</nav>
-  <h1>{{ title }}</h1>
+  <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
   {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
 </div>
 <div class="contenitore" style="padding-bottom:72px">

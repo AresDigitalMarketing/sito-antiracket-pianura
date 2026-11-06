@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <div class="contenitore pagina-testa">
   <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › <a href="/fotogallery/">Fotogallery</a></nav>
-  <h1>{{ title }}</h1>
+  <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
   {%- if descrizione %}<p>{{ descrizione }}</p>{% endif %}
 </div>
 <div class="contenitore" style="padding-bottom:72px">

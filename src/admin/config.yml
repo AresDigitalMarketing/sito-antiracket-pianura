@@ -52,6 +52,7 @@ collections:
       default: { field: date, direction: descending }
     fields:
       - { label: Titolo, name: title, widget: string }
+      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
       - { label: Foto principale, name: image, widget: image, required: false }
       - { label: Descrizione della foto, name: image_alt, widget: string, required: false, hint: "Breve descrizione, utile a chi non vede l’immagine (es. «Il presidente durante l’assemblea»)" }
@@ -74,6 +75,7 @@ collections:
       default: { field: date, direction: descending }
     fields:
       - { label: Titolo, name: title, widget: string }
+      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
       - { label: File del comunicato (PDF o immagine), name: file, widget: file, required: false }
       - { label: Immagine di anteprima, name: image, widget: image, required: false, hint: "Facoltativa. Se carichi un’immagine come file del comunicato, viene usata quella." }
@@ -94,6 +96,7 @@ collections:
       default: { field: date, direction: descending }
     fields:
       - { label: Titolo dell’album, name: title, widget: string }
+      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
       - { label: Data dell’evento, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD, hint: "Serve a ordinare gli album: i più recenti compaiono per primi." }
       - { label: Foto di copertina, name: cover, widget: image, required: false, hint: "Se non la scegli, viene usata la prima foto dell’album." }
       - { label: Descrizione breve, name: descrizione, widget: text, required: false }
@@ -150,6 +153,7 @@ collections:
         file: src/pagine/la-nostra-storia.md
         fields: &campiPagina
           - { label: Titolo, name: title, widget: string }
+          - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
           - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
           - { label: Immagine in alto, name: image, widget: image, required: false }
           - { label: Descrizione dell’immagine, name: image_alt, widget: string, required: false }
