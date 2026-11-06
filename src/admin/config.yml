@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: antiracket-pianura/sito-antiracket-pianura
+  repo: AresDigitalMarketing/sito-antiracket-pianura
   branch: main
   commit_messages:
     create: "Nuovo contenuto: {{collection}} “{{slug}}”"
