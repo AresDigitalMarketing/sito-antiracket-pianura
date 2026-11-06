@@ -3,6 +3,7 @@ title: "Parte la campagna di comunicazione Antiracket e Antiusura"
 date: 2024-07-07
 image: /uploads/notizie/campagna-di-comunicazione-antiracket-e-antiusura.webp
 image_alt: ""
+video: https://www.youtube.com/watch?v=10v2IC2v7tY
 excerpt: "La campagna è realizzata in collaborazione con il Ministero dell’Interno e con questo Dipartimento, dal Commissario Straordinario del Governo per il coordinamento delle iniziative antiracket e antiusura con risorse CONSAP ai sensi dell’art. 2, comma 9, del d.P.R. 19 febbraio 2014 n. 60."
 ---
 **La campagna è realizzata in collaborazione con il Ministero dell’Interno e con questo Dipartimento, dal Commissario Straordinario del Governo per il coordinamento delle iniziative antiracket e antiusura con risorse CONSAP ai sensi dell’art. 2, comma 9, del d.P.R. 19 febbraio 2014 n. 60.**

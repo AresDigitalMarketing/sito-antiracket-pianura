@@ -58,6 +58,7 @@ collections:
       - { label: Descrizione della foto, name: image_alt, widget: string, required: false, hint: "Breve descrizione, utile a chi non vede l’immagine (es. «Il presidente durante l’assemblea»)" }
       - { label: Sommario, name: excerpt, widget: text, required: false, hint: "Una o due frasi: compaiono nell’anteprima e su Facebook." }
       - { label: Testo, name: body, widget: markdown }
+      - { label: Video YouTube (facoltativo), name: video, widget: string, required: false, hint: "Incolla il link del video su YouTube (es. https://www.youtube.com/watch?v=…): comparirà in fondo al testo." }
       - { label: Altre foto, name: galleria, widget: image, multiple: true, required: false, hint: "Facoltativo: puoi selezionarne più di una insieme." }
 
   - name: comunicati

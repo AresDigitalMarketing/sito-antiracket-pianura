@@ -14,6 +14,15 @@ layout: layouts/base.njk
   </figure>
   {%- endif %}
   <div class="testo">{{ content | safe }}</div>
+  {%- set vid = video | youtubeId %}
+  {%- if vid %}
+  <div class="video-box" style="border-radius:8px">
+    <button type="button" data-youtube="{{ vid }}" aria-label="Guarda il video: {{ title }}">
+      <img src="https://i.ytimg.com/vi/{{ vid }}/hqdefault.jpg" alt="" loading="lazy">
+      <span class="play"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#0F2E5C"/></svg></span>
+    </button>
+  </div>
+  {%- endif %}
   {%- if galleria and galleria.length %}
   <div class="foto" data-galleria>
     {%- for f in galleria %}
