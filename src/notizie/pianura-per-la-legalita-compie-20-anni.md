@@ -1,10 +1,14 @@
 ---
-title: "L’Associazione Antiracket “Pianura per la Legalità” compie 20 anni"
+title: L’Associazione Antiracket “Pianura per la Legalità” compie 20 anni
+titolo_righe: ''
 date: 2023-11-11
 image: /uploads/notizie/pianura-per-la-legalita-compie-20-anni.webp
-image_alt: ""
-excerpt: "Vent’anni di intensa attività al fianco di commercianti ed imprenditori, assistendoli e sostenendoli nelle denunce contro gli estorsori ed accompagnandoli nei processi."
+image_alt: ''
+excerpt: Vent’anni di intensa attività al fianco di commercianti ed imprenditori, assistendoli e sostenendoli nelle denunce contro gli estorsori ed accompagnandoli nei processi.
+video: ''
+galleria: []
 ---
+
 Vent’anni di intensa attività al fianco di commercianti ed imprenditori, assistendoli e sostenendoli nelle denunce contro gli estorsori ed accompagnandoli nei processi. Attività che hanno prodotto centinaia di arresti e decine di condanne.
 
 E questa è storia, scritta insieme alle forze dell’ordine e alla magistratura: l’attualità ci parla di un fenomeno estorsivo più marginale nelle attività dei clan e di due nuovi terreni di sfida sui quali l’associazione si deve cimentare, come le occupazioni abusive delle case popolari gestite dalla camorra ed il preoccupante fenomeno della delinquenza minorile, cercando di recuperare quel consenso popolare che connoto i primi anni del movimento antiracket pianurese.
@@ -13,7 +17,7 @@ Di questo ed altro hanno discusso venerdì 20 ottobre, presso la sala convegni d
 
 Come ha sottolineato Cuomo, l’incontro è solo la prima di una serie di iniziative finalizzate a riportare i temi della legalità e della sicurezza sempre più al centro dell’attenzione cittadina.
 
-«*La strada è lunga e tortuosa, ma tutti insieme, un passo alla volta, ce la possiamo fare!*»
+«_La strada è lunga e tortuosa, ma tutti insieme, un passo alla volta, ce la possiamo fare!_»
 
 Fonte:  
-[Il Corriere di Pianura](https://www.ilcorrieredipianura.tv/)
+[Il Corriere di Pianura](https://www.facebook.com/p/Il-Corriere-di-Pianura-100063718563664/?locale=it_IT)
