@@ -21,7 +21,7 @@
 <a class="scheda" href="{{ c.url }}">
   {{ immagine(c.data.image or (c.data.file if not (c.data.file | isPdf) else ""), "", "scheda-img documento") }}
   <div class="scheda-corpo compatto">
-    <span class="scheda-titolo" style="font-size:19px">{{ c.data.title }}</span>
+    <span class="scheda-titolo" style="font-size:19px">{%- set tc = c.data.title -%}{%- if tc.startsWith("Comunicato stampa del ") -%}Comunicato stampa del<br>{{ tc.slice(22) }}{%- else -%}{{ tc }}{%- endif -%}</span>
     <span class="scheda-azione">Leggi{% if c.data.file %} · scarica {{ c.data.file | estensione }}{% endif %}</span>
   </div>
 </a>
