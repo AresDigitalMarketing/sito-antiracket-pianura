@@ -1,10 +1,14 @@
 ---
-title: "Al via la nuova campagna di comunicazione dell’associazione antiracket Pianura per la Legalità"
+title: Al via la nuova campagna di comunicazione dell’associazione antiracket Pianura per la Legalità
+titolo_righe: ''
 date: 2026-07-01
 image: /uploads/notizie/nuova-campagna-comunicazione.webp
-image_alt: ""
-excerpt: "L’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” lancia la nuova campagna di comunicazione realizzata nell’ambito del progetto di adozione sociale finanziato dalla Regione Campania, con l’obiettivo di sensibilizzare imprenditori, commercianti, artigiani, professionisti e cittadini sui fenomeni dell’estorsione, dell’usura e del sovraindebitamento."
+image_alt: ''
+excerpt: L’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” lancia la nuova campagna di comunicazione realizzata nell’ambito del progetto di adozione sociale finanziato dalla Regione Campania, con l’obiettivo di sensibilizzare imprenditori, commercianti, artigiani, professionisti e cittadini sui fenomeni dell’estorsione, dell’usura e del sovraindebitamento. POV
+video: ''
+galleria: []
 ---
+
 L’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” lancia la nuova **campagna di comunicazione** realizzata nell’ambito del progetto di adozione sociale finanziato dalla Regione Campania, con l’obiettivo di sensibilizzare imprenditori, commercianti, artigiani, professionisti e cittadini sui fenomeni dell’**estorsione**, dell’**usura** e del **sovraindebitamento**.
 
 Nei prossimi mesi il video della campagna sarà diffuso attraverso i principali canali social e le piattaforme digitali dell’associazione per raggiungere il maggior numero possibile di persone e ricordare un messaggio tanto semplice quanto importante: **nessuno deve affrontare da solo il peso della criminalità**.
