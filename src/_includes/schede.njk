@@ -19,7 +19,7 @@
 
 {%- macro comunicato(c) -%}
 <a class="scheda" href="{{ c.url }}">
-  {{ immagine(c.data.image or (c.data.file if not (c.data.file | isPdf) else ""), "") }}
+  {{ immagine(c.data.image or (c.data.file if not (c.data.file | isPdf) else ""), "", "scheda-img documento") }}
   <div class="scheda-corpo">
     <time class="scheda-data" datetime="{{ c.date | dataIso }}">{{ c.date | dataIt }}</time>
     <span class="scheda-titolo" style="font-size:19px">{{ c.data.title }}</span>

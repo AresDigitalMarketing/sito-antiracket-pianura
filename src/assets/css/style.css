@@ -245,3 +245,7 @@ dialog.lightbox::backdrop { background: rgba(8, 18, 38, .94); }
 .foto.intere button:hover img { transform: none; }
 @media (max-width: 860px) { .foto.intere { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .foto.intere { grid-template-columns: 1fr; } }
+
+/* Anteprime dei comunicati: documento intero, tutte della stessa dimensione */
+.scheda-img.documento { aspect-ratio: 4 / 5; object-fit: contain; background: var(--bianco); padding: 10px; border-bottom: 1px solid var(--bordo); }
+.scheda-img.documento.vuota { padding: 0; }

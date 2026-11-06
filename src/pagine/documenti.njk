@@ -8,6 +8,7 @@ permalink: /documenti/
 {%- set elenco = (collections.documenti | perCategoria("Associazione")).concat(collections.documenti | perCategoria("Altro")) -%}
 <div class="contenitore pagina-testa">
   <h1>Documenti</h1>
+  <p>Tutti i documenti dell’associazione, da leggere e scaricare.</p>
 </div>
 <div class="contenitore" style="padding-bottom:72px">
   {%- if elenco.length %}
