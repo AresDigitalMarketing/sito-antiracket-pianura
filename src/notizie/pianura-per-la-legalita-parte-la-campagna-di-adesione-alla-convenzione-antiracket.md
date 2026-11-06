@@ -1,14 +1,14 @@
 ---
 title: "Parte la campagna di adesione alla nuova Convenzione Antiracket"
 date: 2025-10-01
-image: https://www.antiracketpianura.it/wp-content/uploads/2025/10/Antiracket-002-scaled.jpg
+image: /uploads/notizie/pianura-per-la-legalita-parte-la-campagna-di-adesione-alla-convenzione-antiracket.webp
 image_alt: ""
-excerpt: "Adesione gratuita per le attività economiche non edili: basta l’istanza con visura camerale e documento del titolare per ricevere il Cartello Antiracket."
+excerpt: "È partita ufficialmente la campagna di adesione alla nuova Convenzione Antiracket, uno strumento pensato dall’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” per tutte le attività economiche non…"
 ---
-È partita la campagna di adesione alla nuova **Convenzione Antiracket**, promossa dall’associazione “Pianura per la Legalità in memoria di Gigi e Paolo” e rivolta alle attività economiche non edili.
+È partita ufficialmente la campagna di adesione alla nuova **Convenzione Antiracket**, uno strumento pensato dall’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” per tutte le attività economiche **non edili**. Rappresenta una rete di prevenzione, tutela e protezione sociale ed economica contro racket, estorsioni, pressioni criminali e intimidazioni.
 
-L’adesione è **gratuita** e non prevede quote: basta compilare l’istanza disponibile sul sito, allegando la visura camerale e il documento d’identità del titolare o del legale rappresentante.
+L’adesione è **totalmente gratuita**, non comporta costi per l’impresa e non prevede il pagamento di alcuna quota di iscrizione, per aderire è sufficiente compilare e sottoscrivere l’**istanza di adesione** presente sul sito web dell’associazione, allegando **visura camerale** e **documento d’identità** del titolare o del legale rappresentante dell’impresa.
 
-Il **Cartello Antiracket** che si riceve con l’adesione non è uno strumento di marketing, ma di deterrenza concreta: in territori dove il racket osserva e colpisce chi è isolato, far parte di un sistema organizzato significa che chi lavora onestamente non resta solo.
+L’esposizione del **Cartello Antiracket**, ottenibile attraverso l’adesione alla convenzione, rappresenta uno strumento di prevenzione reale: non è marketing, ma vera e **propria deterrenza** sociale in un contesto fatto di territori nei quali il racket studia, osserva, seleziona e colpisce chi si trova in situazioni di isolamento e debolezza.
 
-[Scopri come aderire alla Convenzione →](/convenzione-antiracket/)
+La visibilità della rete, attraverso l’apposizione del Cartello, significa protezione e prevenzione, grazie soprattutto all’appartenenza a un **sistema organizzato** che punta a far sì che nessun cittadino che lavora onestamente rimanga solo.
