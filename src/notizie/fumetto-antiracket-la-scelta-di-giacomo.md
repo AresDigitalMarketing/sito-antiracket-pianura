@@ -15,4 +15,4 @@ Il progetto si inserisce in un più ampio contesto di cultura della legalità e 
 
 Continua così, con passione e determinazione, il percorso dell’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo”, che da anni opera con tenacia sul territorio per sostenere cittadini e imprese vittime di racket e usura, favorendo un dialogo costruttivo con istituzioni, scuole e forze dell’ordine.
 
-Per effettuare il download del fumetto, clicca [**qui**.](https://www.antiracketpianura.it/wp-content/uploads/2026/02/Fumetto-Grazie-Giacomo.pdf)
+Per effettuare il download del fumetto, clicca [**qui**.](/uploads/notizie/fumetto-la-scelta-di-giacomo.pdf)

@@ -15,4 +15,4 @@ L’evento vedrà un ruolo attivo degli studenti del Liceo Fonseca, che curerann
 
 “Il profumo della libertà” nasce con l’obiettivo di parlare un linguaggio accessibile e immediato, capace di arrivare soprattutto ai più giovani, per trasmettere un messaggio chiaro: denunciare è possibile, e non si è soli.
 
-Per effettuare il download del fumetto, clicca [qui](https://www.antiracketpianura.it/wp-content/uploads/2026/04/EXE_il_profumo_della_liberta_Sandro.pdf).
+Per effettuare il download del fumetto, clicca [qui](/uploads/notizie/fumetto-il-profumo-della-liberta.pdf).
