@@ -177,7 +177,7 @@ a.scheda:hover .scheda-titolo { color: var(--blu); }
 /* Pagine interne */
 .pagina-testa { padding-block: 56px 24px; }
 .pagina-testa h1 { font-size: clamp(34px, 5vw, 48px); }
-.pagina-testa p { font-size: 21px; font-weight: 600; line-height: 1.45; color: var(--blu); margin: 14px 0 0; max-width: 820px; white-space: pre-line; }
+.pagina-testa p { font-size: 21px; font-weight: 600; line-height: 1.45; color: var(--testo); margin: 14px 0 0; max-width: 820px; white-space: pre-line; }
 .briciole { font-size: 15px; margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 6px; color: var(--testo-3); }
 
 .testo { max-width: 760px; font-size: 19px; line-height: 1.7; }
@@ -191,7 +191,7 @@ a.scheda:hover .scheda-titolo { color: var(--blu); }
 
 .articolo { max-width: 800px; margin: 0 auto; padding: 48px 24px 72px; display: flex; flex-direction: column; gap: 22px; }
 .articolo h1 { font-size: clamp(32px, 5vw, 46px); }
-.articolo .sommario { font-size: 21px; font-weight: 600; line-height: 1.45; color: var(--blu); margin: 0; }
+.articolo .sommario { font-size: 21px; font-weight: 600; line-height: 1.45; color: var(--testo); margin: 0; }
 .articolo figure { margin: 4px 0 8px; }
 .articolo figure img { width: 100%; border-radius: var(--raggio); }
 .articolo figcaption { font-size: 14px; color: var(--testo-3); margin-top: 8px; }
