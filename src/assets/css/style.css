@@ -66,7 +66,7 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
 .marchio img { height: 112px; width: auto; }
 .marchio-testo { display: flex; flex-direction: column; }
 .marchio-nome { font-family: var(--serif); font-weight: 700; font-size: 46px; color: var(--blu-scuro); line-height: 1.05; }
-.marchio-sotto { font-size: 15px; color: var(--testo-3); letter-spacing: .04em; text-transform: uppercase; }
+.marchio-sotto { font-size: 15px; color: var(--testo-3); letter-spacing: .04em; }
 .menu { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-weight: 500; font-size: 16px; }
 .menu a { text-decoration: none; padding: 8px 0; }
 .menu a[aria-current="page"] { color: var(--verde); font-weight: 700; }
@@ -237,3 +237,11 @@ dialog.lightbox::backdrop { background: rgba(8, 18, 38, .94); }
 .contatto span { display: block; font-size: 14px; color: var(--testo-3); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px; }
 .contatto a { font-size: 21px; font-weight: 700; text-decoration: none; word-break: break-word; }
 .avviso-prova { background: var(--giallo); color: var(--blu-scuro); text-align: center; font-size: 14px; font-weight: 600; padding: 6px 16px; }
+
+/* Immagini da mostrare intere (es. attestazioni Legge 124/2017): 3 per riga, senza tagli */
+.foto.intere { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+.foto.intere button { aspect-ratio: auto; background: var(--bianco); border: 1px solid var(--bordo); padding: 8px; }
+.foto.intere img { height: auto; object-fit: contain; }
+.foto.intere button:hover img { transform: none; }
+@media (max-width: 860px) { .foto.intere { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .foto.intere { grid-template-columns: 1fr; } }

@@ -18,7 +18,7 @@ layout: layouts/base.njk
     {%- endif %}
   {%- endif %}
   {%- if galleria and galleria.length %}
-  <div class="foto" data-galleria style="margin-top:32px;max-width:960px">
+  <div class="foto intere" data-galleria style="margin-top:32px;max-width:1100px">
     {%- for f in galleria %}
     <button type="button" data-src="{{ f }}" aria-label="Ingrandisci immagine {{ loop.index }}"><img src="{{ f }}" alt="{{ title }} – immagine {{ loop.index }}" loading="lazy"></button>
     {%- endfor %}
