@@ -1,6 +1,5 @@
 # Vecchi indirizzi del sito WordPress → nuovi indirizzi
 /fotogallery/nggallery/album/:album   /fotogallery/:album/   301
-/fotogallery/nggallery/*              /fotogallery/          301
 /wp-admin/*                           /admin/                302
 /wp-login.php                         /admin/                302
 /category/*                           /notizie/              301
