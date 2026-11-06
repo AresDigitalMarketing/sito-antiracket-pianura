@@ -18,6 +18,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/uploads": "uploads" });
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
   eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
+  eleventyConfig.addPassthroughCopy({ "src/_headers": "_headers" });
   eleventyConfig.addPassthroughCopy({
     "node_modules/@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2":
       "assets/fonts/public-sans.woff2",
