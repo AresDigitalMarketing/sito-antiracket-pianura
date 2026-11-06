@@ -63,10 +63,10 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
 .testata { background: var(--bianco); border-bottom: 1px solid var(--bordo); }
 .testata .contenitore { display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: center; justify-content: space-between; padding-block: 16px; }
 .marchio { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-.marchio img { height: 84px; width: auto; }
+.marchio img { height: 96px; width: auto; }
 .marchio-testo { display: flex; flex-direction: column; }
-.marchio-nome { font-family: var(--serif); font-weight: 700; font-size: 23px; color: var(--blu-scuro); line-height: 1.2; }
-.marchio-sotto { font-size: 13px; color: var(--testo-3); letter-spacing: .04em; text-transform: uppercase; }
+.marchio-nome { font-family: var(--serif); font-weight: 700; font-size: 34px; color: var(--blu-scuro); line-height: 1.1; }
+.marchio-sotto { font-size: 14px; color: var(--testo-3); letter-spacing: .04em; text-transform: uppercase; }
 .menu { display: flex; flex-wrap: wrap; gap: 4px 20px; align-items: center; font-weight: 500; }
 .menu a { text-decoration: none; padding: 8px 0; }
 .menu a[aria-current="page"] { color: var(--verde); font-weight: 700; }
@@ -81,7 +81,7 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
   .menu-mobile nav { display: flex; flex-direction: column; margin-top: 8px; }
   .menu-mobile nav a { padding: 12px 4px; border-bottom: 1px solid var(--bordo); text-decoration: none; }
   .marchio img { height: 64px; }
-  .marchio-nome { font-size: 20px; }
+  .marchio-nome { font-size: 25px; }
 }
 
 /* Pulsanti */
