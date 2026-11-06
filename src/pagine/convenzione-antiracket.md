@@ -1,8 +1,15 @@
 ---
 title: La Convenzione Antiracket
-sottotitolo: Per i commercianti e gli operatori economici della Campania. L’adesione è completamente gratuita.
+titolo_righe: ''
+sottotitolo: |-
+  Per i commercianti e gli operatori economici della Campania.
+  L’adesione è completamente gratuita.
+image: ''
+image_alt: ''
+galleria: []
 ---
-L’associazione antiracket e antiusura **Pianura per la Legalità in memoria di Gigi e Paolo Aps**, nell’ambito del progetto “Per liberarsi in sicurezza da racket e usura in Campania”, sostenuto dal Programma Regionale Campania FSE+ 2021-2027, ha ideato la **Convenzione Antiracket**: una campagna di sensibilizzazione tra gli operatori commerciali della Regione Campania per prevenire i reati di racket e usura, contrastarli e liberare gli operatori economici già vittime di richieste estorsive o ricatti usurai.
+
+L’associazione antiracket e antiusura **Pianura per la Legalità in memoria di Gigi e Paolo APS**, nell’ambito del progetto “Per liberarsi in sicurezza da racket e usura in Campania”, sostenuto dal Programma Regionale Campania FSE+ 2021-2027, ha ideato la **Convenzione Antiracket**: una campagna di sensibilizzazione tra gli operatori commerciali della Regione Campania per prevenire i reati di racket e usura, contrastarli e liberare gli operatori economici già vittime di richieste estorsive o ricatti usurai.
 
 L’iniziativa nasce dall’esperienza del [Patto Antiracket](/il-patto-antiracket/) con le imprese edili, che l’associazione sperimenta con successo da oltre dieci anni. Aiuta gli operatori economici non edili a respingere eventuali richieste estorsive e a creare un rapporto consapevole e virtuoso con l’associazione antiracket e le Forze dell’Ordine, sempre nella direzione di arrivare alla denuncia in caso di bisogno.
 
