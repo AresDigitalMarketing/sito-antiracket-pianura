@@ -1,18 +1,18 @@
 ---
 title: "Sit-in di solidarietà"
 date: 2025-10-01
-cover: https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-01.jpg
+cover: /uploads/fotogallery/sit-in-di-solidarieta/01.webp
 foto:
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-01.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-02.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-03.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-04.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-05.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-06.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-07.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-08.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-09.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-10.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-11.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/sit-in-di-solidarieta/Sit-in-di-soliderieta-12.jpg
+  - /uploads/fotogallery/sit-in-di-solidarieta/01.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/02.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/03.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/04.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/05.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/06.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/07.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/08.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/09.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/10.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/11.webp
+  - /uploads/fotogallery/sit-in-di-solidarieta/12.webp
 ---

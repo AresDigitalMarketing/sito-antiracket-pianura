@@ -1,18 +1,18 @@
 ---
 title: "Patto Antiracket I.C. “Massimo Troisi”"
 date: 2025-09-01
-cover: https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_9_.jpeg
+cover: /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/01.webp
 foto:
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_9_.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_14_.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-2.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_13_.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_12_.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_11_.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-_8_.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-troisi.jpeg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-7.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-6.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-5.jpg
-  - https://www.antiracketpianura.it/wp-content/gallery/patto-antiracket-ic-massimo-troisi/Cantiere-Massimo-Troisi-4.jpg
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/01.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/02.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/03.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/04.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/05.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/06.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/07.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/08.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/09.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/10.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/11.webp
+  - /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/12.webp
 ---
