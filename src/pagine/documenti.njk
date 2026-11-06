@@ -4,20 +4,15 @@ title: Documenti
 permalink: /documenti/
 ---
 {%- import "schede.njk" as s -%}
-{%- set categorie = ["Associazione", "Convenzione Antiracket", "Patto Antiracket", "P.O.R. Campania", "Legge 124/2017", "Altro"] -%}
+{#- Qui compaiono i documenti delle sezioni «Associazione» e «Altro»; gli altri sono nelle pagine Convenzione, Patto, P.O.R. Campania e Legge 124/2017 -#}
+{%- set elenco = (collections.documenti | perCategoria("Associazione")).concat(collections.documenti | perCategoria("Altro")) -%}
 <div class="contenitore pagina-testa">
   <h1>Documenti</h1>
-  <p>Regolamenti, moduli e documenti dell’associazione, da consultare e scaricare.</p>
 </div>
 <div class="contenitore" style="padding-bottom:72px">
-  {%- set trovati = 0 %}
-  {%- for cat in categorie %}
-    {%- set elenco = collections.documenti | perCategoria(cat) %}
-    {%- if elenco.length %}
-    {%- set trovati = trovati + 1 %}
-    <h2 style="font-size:26px;margin:8px 0 16px">{{ cat }}</h2>
-    {{ s.documenti(elenco) }}
-    {%- endif %}
-  {%- endfor %}
-  {%- if not trovati %}<p class="vuoto">Non ci sono ancora documenti.</p>{% endif %}
+  {%- if elenco.length %}
+  {{ s.documenti(elenco) }}
+  {%- else %}
+  <p class="vuoto">Non ci sono ancora documenti.</p>
+  {%- endif %}
 </div>

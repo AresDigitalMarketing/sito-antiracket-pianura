@@ -141,7 +141,7 @@ collections:
         name: categoria
         widget: select
         options: ["Associazione", "Convenzione Antiracket", "Patto Antiracket", "P.O.R. Campania", "Legge 124/2017", "Altro"]
-        hint: "Il documento compare nella pagina Documenti e anche nella pagina della sezione scelta."
+        hint: "«Associazione» e «Altro» compaiono nella pagina Documenti; le altre sezioni compaiono nella pagina corrispondente (Convenzione, Patto, P.O.R. Campania, Legge 124/2017)."
       - { label: File, name: file, widget: file }
       - { label: Mostra la data accanto al titolo, name: mostra_data, widget: boolean, default: false, required: false }
 
