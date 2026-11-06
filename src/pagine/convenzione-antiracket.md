@@ -22,15 +22,15 @@ L’iniziativa nasce dall’esperienza del [Patto Antiracket](/il-patto-antirack
 
 ## Come aderire
 
-**1. Invia la richiesta.** Scrivi a [info@antiracketpianura.it](mailto:info@antiracketpianura.it) allegando:
+**1. Invia la richiesta** → scrivi a [info@antiracketpianura.it](mailto:info@antiracketpianura.it) allegando:
 
 - indirizzo e recapiti telefonici, e-mail e PEC dell’impresa;
 - visura camerale aggiornata;
 - documenti del titolare dell’impresa.
 
-**2. Valutazione della richiesta.** L’associazione risponde **entro quindici giorni**, comunicando l’esito della valutazione della commissione.
+**2. Valutazione della richiesta** → l’associazione risponde **entro quindici giorni**, comunicando l’esito della valutazione della commissione.
 
-**3. Sottoscrizione.** In caso di esito positivo riceverai un invito a recarti in una delle sedi dell’associazione, dove potrai firmare la Convenzione e **ritirare il cartellone antiracket** da esporre nella tua attività.
+**3. Sottoscrizione** → in caso di esito positivo riceverai un invito a recarti in una delle sedi dell’associazione, dove potrai firmare la Convenzione e **ritirare il cartellone antiracket** da esporre nella tua attività.
 
 ## Costi
 
