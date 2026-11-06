@@ -83,30 +83,6 @@
     <img class="piede-logo" src="/assets/img/logo-pianura.svg" alt="" width="182" height="236" loading="lazy">
     <p class="piede-testo"><strong>{{ site.nome_completo }}.</strong> {{ site.iscrizioni }}</p>
   </div>
-  <div class="contenitore piede-colonne">
-    <div>
-      <h2>Contatti</h2>
-      <ul>
-        <li><a href="tel:{{ site.numero_verde | replace(' ', '') }}">Numero verde {{ site.numero_verde }}</a></li>
-        <li><a href="tel:{{ site.cellulare | replace(' ', '') }}">Cellulare {{ site.cellulare }}</a></li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li>PEC: {{ site.pec }}</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Approfondimenti</h2>
-      <ul>
-        <li><a href="/il-patto-antiracket/">Il Patto Antiracket</a></li>
-        <li><a href="/por-campania/">P.O.R. Campania</a></li>
-        <li><a href="/legge-124-2017/">Legge 124/2017</a></li>
-        <li><a href="/videogallery/">Videogallery</a></li>
-        {%- if site.facebook %}<li><a href="{{ site.facebook }}">Facebook</a></li>{% endif %}
-        {%- if site.instagram %}<li><a href="{{ site.instagram }}">Instagram</a></li>{% endif %}
-        {%- if site.youtube %}<li><a href="{{ site.youtube }}">YouTube</a></li>{% endif %}
-      </ul>
-    </div>
-  </div>
-
   <div class="piede-fondo">
     <div class="contenitore">
       <span>© {{ anno }} Antiracket Pianura</span>

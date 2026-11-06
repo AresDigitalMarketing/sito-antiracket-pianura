@@ -162,7 +162,7 @@ a.scheda:hover .scheda-titolo { color: var(--blu); }
 
 /* Piè di pagina */
 .piede { background: var(--blu-scuro); color: #DDE2EC; font-size: 16px; }
-.piede-alto { display: flex; align-items: center; gap: 28px; padding-block: 48px 36px; border-bottom: 1px solid #2C5590; }
+.piede-alto { display: flex; align-items: center; gap: 28px; padding-block: 48px; }
 .piede-testo { margin: 0; max-width: 860px; line-height: 1.6; }
 .piede-testo strong { color: var(--bianco); }
 .piede-colonne { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; padding-block: 36px 44px; }
