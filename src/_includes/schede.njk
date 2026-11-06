@@ -20,8 +20,7 @@
 {%- macro comunicato(c) -%}
 <a class="scheda" href="{{ c.url }}">
   {{ immagine(c.data.image or (c.data.file if not (c.data.file | isPdf) else ""), "", "scheda-img documento") }}
-  <div class="scheda-corpo">
-    <time class="scheda-data" datetime="{{ c.date | dataIso }}">{{ c.date | dataIt }}</time>
+  <div class="scheda-corpo compatto">
     <span class="scheda-titolo" style="font-size:19px">{{ c.data.title }}</span>
     <span class="scheda-azione">Leggi{% if c.data.file %} · scarica {{ c.data.file | estensione }}{% endif %}</span>
   </div>
