@@ -6,14 +6,12 @@ permalink: /contatti/
 <div class="contenitore pagina-testa">
   <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › Contatti</nav>
   <h1>Contatti</h1>
-  <p>Se sei vittima di estorsione o usura, chiamaci: ti ascoltiamo in modo riservato e gratuito.</p>
+  <p style="max-width:none">Se sei vittima di estorsione o usura, chiamaci: ti ascoltiamo in modo riservato e gratuito.</p>
 </div>
 <div class="contenitore" style="padding-bottom:72px">
   <div class="contatti-grid">
     <div class="contatto"><span>Numero verde</span><a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a></div>
     <div class="contatto"><span>Cellulare</span><a href="tel:{{ site.cellulare | replace(' ', '') }}">{{ site.cellulare }}</a></div>
     <div class="contatto"><span>Email</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
-    <div class="contatto"><span>PEC</span><a href="mailto:{{ site.pec }}">{{ site.pec }}</a></div>
   </div>
-  <p class="testo" style="margin-top:32px">{{ site.nome_completo }}. {{ site.iscrizioni }}</p>
 </div>
