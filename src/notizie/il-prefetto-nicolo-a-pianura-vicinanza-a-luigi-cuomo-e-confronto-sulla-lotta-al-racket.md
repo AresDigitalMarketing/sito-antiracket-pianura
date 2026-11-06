@@ -1,10 +1,14 @@
 ---
-title: "Il prefetto Nicolò a Pianura: vicinanza a Luigi Cuomo e confronto sulla lotta al racket"
+title: 'Il prefetto Nicolò a Pianura: vicinanza a Luigi Cuomo e confronto sulla lotta al racket'
+titolo_righe: ''
 date: 2025-05-17
 image: /uploads/notizie/il-prefetto-nicolo-a-pianura-vicinanza-a-luigi-cuomo-e-confronto-sulla-lotta-al-racket.webp
-image_alt: ""
-excerpt: "Un segnale concreto di vicinanza istituzionale al mondo dell’antiracket e a chi, ogni giorno, è impegnato al fianco delle vittime di estorsione e usura: il Prefetto Maria Grazia Nicolò, Commissario Straordinario del Governo per il Coordinamento delle iniziative Antiracket e Antiusura, si è recata personalmente a Pianura presso la sede dell’associazione antiracket locale, dove ha incontrato Luigi Cuomo, Presidente Nazionale di SOS Impresa – Rete per la Legalità, e una rappresentanza dei dirigenti dell’associazione."
+image_alt: ''
+excerpt: Il Prefetto Maria Grazia Nicolò, Commissario Straordinario del Governo per il Coordinamento delle iniziative Antiracket e Antiusura, si è recata personalmente a Pianura presso la sede dell’associazione antiracket locale, dove ha incontrato Luigi Cuomo, Presidente Nazionale di SOS Impresa – Rete per la Legalità, e una rappresentanza dei dirigenti dell’associazione.
+video: ''
+galleria: []
 ---
+
 Un segnale concreto di vicinanza istituzionale al mondo dell’antiracket e a chi, ogni giorno, è impegnato al fianco delle vittime di estorsione e usura: il Prefetto **Maria Grazia Nicolò**, Commissario Straordinario del Governo per il Coordinamento delle iniziative Antiracket e Antiusura, si è recata personalmente a Pianura presso la sede dell’associazione antiracket locale, dove ha incontrato **Luigi Cuomo**, Presidente Nazionale di **SOS Impresa – Rete per la Legalità**, e una rappresentanza dei dirigenti dell’associazione.
 
 La visita arriva a pochi giorni dal sit-in di solidarietà organizzato nel quartiere dopo le minacce e l’aggressione subite da Cuomo da parte del padre di un uomo arrestato per estorsione, un episodio che aveva suscitato una forte reazione nel territorio e nel mondo dell’associazionismo antiracket, con la volontà di ribadire che chi accompagna imprenditori e commercianti nel percorso di denuncia non può essere lasciato solo.
