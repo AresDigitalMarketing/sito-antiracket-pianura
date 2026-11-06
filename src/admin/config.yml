@@ -1,0 +1,208 @@
+# Configurazione del pannello di gestione (Sveltia CMS).
+# L'unica riga da completare è "repo" qui sotto: nome-utente-github/nome-archivio
+
+backend:
+  name: github
+  repo: NOME-UTENTE-GITHUB/sito-antiracket-pianura
+  branch: main
+  commit_messages:
+    create: "Nuovo contenuto: {{collection}} “{{slug}}”"
+    update: "Modifica: {{collection}} “{{slug}}”"
+    delete: "Eliminato: {{collection}} “{{slug}}”"
+    uploadMedia: "Caricato file “{{path}}”"
+    deleteMedia: "Eliminato file “{{path}}”"
+
+logo:
+  src: /assets/img/logo-pianura.svg
+
+media_folder: src/uploads
+public_folder: /uploads
+
+# Le foto caricate vengono ridotte e convertite in formato leggero (WebP) in automatico
+media_libraries:
+  default:
+    config:
+      max_file_size: 25000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 2000
+          height: 2000
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: notizie
+    label: Notizie
+    label_singular: notizia
+    description: Articoli e aggiornamenti. Compaiono in home page e nella pagina Notizie.
+    folder: src/notizie
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: Foto principale, name: image, widget: image, required: false }
+      - { label: Descrizione della foto, name: image_alt, widget: string, required: false, hint: "Breve descrizione, utile a chi non vede l’immagine (es. «Il presidente durante l’assemblea»)" }
+      - { label: Sommario, name: excerpt, widget: text, required: false, hint: "Una o due frasi: compaiono nell’anteprima e su Facebook." }
+      - { label: Testo, name: body, widget: markdown }
+      - { label: Altre foto, name: galleria, widget: image, multiple: true, required: false, hint: "Facoltativo: puoi selezionarne più di una insieme." }
+
+  - name: comunicati
+    label: Comunicati stampa
+    label_singular: comunicato
+    description: Carica il PDF o l’immagine del comunicato; il testo è facoltativo.
+    folder: src/comunicati
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: File del comunicato (PDF o immagine), name: file, widget: file, required: false }
+      - { label: Immagine di anteprima, name: image, widget: image, required: false, hint: "Facoltativa. Se carichi un’immagine come file del comunicato, viene usata quella." }
+      - { label: Testo, name: body, widget: markdown, required: false }
+
+  - name: fotogallery
+    label: Fotogallery
+    label_singular: album
+    description: Ogni album è una raccolta di foto di un evento.
+    folder: src/fotogallery
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo dell’album, name: title, widget: string }
+      - { label: Data dell’evento, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD, hint: "Serve a ordinare gli album: i più recenti compaiono per primi." }
+      - { label: Foto di copertina, name: cover, widget: image, required: false, hint: "Se non la scegli, viene usata la prima foto dell’album." }
+      - { label: Descrizione breve, name: descrizione, widget: text, required: false }
+      - { label: Foto, name: foto, widget: image, multiple: true, required: false, hint: "Puoi selezionare o trascinare molte foto insieme." }
+
+  - name: video
+    label: Videogallery
+    label_singular: video
+    folder: src/video
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: Indirizzo del video su YouTube, name: youtube, widget: string, hint: "Copia e incolla il link del video, es. https://www.youtube.com/watch?v=…" }
+
+  - name: documenti
+    label: Documenti
+    label_singular: documento
+    description: Regolamenti, moduli e altri file da scaricare.
+    folder: src/documenti
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{categoria}} — {{title}}"
+    sortable_fields:
+      fields: [date, title, categoria]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - label: Sezione
+        name: categoria
+        widget: select
+        options: ["Associazione", "Convenzione Antiracket", "Patto Antiracket", "P.O.R. Campania", "Legge 124/2017", "Altro"]
+        hint: "Il documento compare nella pagina Documenti e anche nella pagina della sezione scelta."
+      - { label: File, name: file, widget: file }
+      - { label: Mostra la data accanto al titolo, name: mostra_data, widget: boolean, default: false, required: false }
+
+  - name: pagine
+    label: Pagine
+    label_singular: pagina
+    description: Le pagine fisse del sito.
+    files:
+      - label: La nostra storia
+        name: storia
+        file: src/pagine/la-nostra-storia.md
+        fields: &campiPagina
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Immagine in alto, name: image, widget: image, required: false }
+          - { label: Descrizione dell’immagine, name: image_alt, widget: string, required: false }
+          - { label: Testo, name: body, widget: markdown }
+          - { label: Immagini in fondo alla pagina, name: galleria, widget: image, multiple: true, required: false }
+      - { label: La Convenzione Antiracket, name: convenzione, file: src/pagine/convenzione-antiracket.md, fields: *campiPagina }
+      - { label: Il Patto Antiracket, name: patto, file: src/pagine/il-patto-antiracket.md, fields: *campiPagina }
+      - { label: P.O.R. Campania, name: por, file: src/pagine/por-campania.md, fields: *campiPagina }
+      - { label: Legge 124/2017, name: legge124, file: src/pagine/legge-124-2017.md, fields: *campiPagina }
+
+  - name: impostazioni
+    label: Impostazioni
+    label_singular: impostazioni
+    editor: { preview: false }
+    files:
+      - label: Home page
+        name: home
+        file: src/_data/home.json
+        fields:
+          - { label: Occhiello (testo giallo in alto), name: occhiello, widget: string }
+          - { label: Titolo grande, name: titolo, widget: string }
+          - { label: Testo di presentazione, name: testo, widget: text }
+          - label: Cosa facciamo (3 riquadri)
+            name: attivita
+            widget: list
+            min: 3
+            max: 3
+            fields:
+              - { label: Titolo, name: titolo, widget: string }
+              - { label: Testo, name: testo, widget: text }
+          - label: Tappe della storia
+            name: tappe
+            widget: list
+            summary: "{{data}}"
+            fields:
+              - { label: Data, name: data, widget: string }
+              - { label: Testo, name: testo, widget: text }
+      - label: Dati dell’associazione e contatti
+        name: sito
+        file: src/_data/site.json
+        fields:
+          - { label: Nome breve, name: nome, widget: string }
+          - { label: Nome completo, name: nome_completo, widget: string }
+          - { label: Descrizione per Google, name: descrizione, widget: text }
+          - { label: Numero verde, name: numero_verde, widget: string }
+          - { label: Cellulare, name: cellulare, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: PEC, name: pec, widget: string }
+          - { label: Iscrizioni ai registri, name: iscrizioni, widget: text }
+          - { label: Pagina Facebook (indirizzo), name: facebook, widget: string, required: false }
+          - { label: Profilo Instagram (indirizzo), name: instagram, widget: string, required: false }
+          - { label: Canale YouTube (indirizzo), name: youtube, widget: string, required: false }
+          - label: Modalità di prova
+            name: modalita_prova
+            widget: boolean
+            hint: "Finché è attiva, il sito mostra la fascia gialla «Versione di prova» e resta nascosto a Google. Disattivala quando il sito diventa quello ufficiale."

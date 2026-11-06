@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: Fotogallery
+permalink: /fotogallery/
+---
+{%- import "schede.njk" as s -%}
+<div class="contenitore pagina-testa">
+  <h1>Fotogallery</h1>
+  <p>Le immagini delle nostre iniziative. Cerchi i video? <a href="/videogallery/">Vai alla videogallery</a>.</p>
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  {%- if collections.album.length %}
+  <div class="griglia">{% for a in collections.album %}{{ s.album(a) }}{% endfor %}</div>
+  {%- else %}
+  <p class="vuoto">Non ci sono ancora album.</p>
+  {%- endif %}
+</div>

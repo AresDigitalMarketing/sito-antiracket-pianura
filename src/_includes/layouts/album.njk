@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+<div class="contenitore pagina-testa">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › <a href="/fotogallery/">Fotogallery</a></nav>
+  <h1>{{ title }}</h1>
+  {%- if descrizione %}<p>{{ descrizione }}</p>{% endif %}
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  {%- if content | striptags | trim %}<div class="testo" style="margin-bottom:28px">{{ content | safe }}</div>{% endif %}
+  {%- if foto and foto.length %}
+  <div class="foto" data-galleria>
+    {%- for f in foto %}
+    <button type="button" data-src="{{ f }}" aria-label="Ingrandisci foto {{ loop.index }} di {{ foto.length }}"><img src="{{ f }}" alt="{{ title }} – foto {{ loop.index }}" loading="lazy" decoding="async"></button>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="vuoto">Questo album non contiene ancora foto.</p>
+  {%- endif %}
+  <p style="margin-top:32px"><a href="/fotogallery/" style="font-weight:600">← Tutti gli album</a></p>
+</div>

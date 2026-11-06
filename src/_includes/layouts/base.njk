@@ -1,0 +1,117 @@
+{%- set menu = [
+  ["/", "Home"],
+  ["/notizie/", "Notizie"],
+  ["/la-nostra-storia/", "La nostra storia"],
+  ["/convenzione-antiracket/", "Convenzione"],
+  ["/comunicati-stampa/", "Comunicati"],
+  ["/documenti/", "Documenti"],
+  ["/fotogallery/", "Foto e video"]
+] -%}
+{%- set titoloPagina = (title + " – " + site.nome) if title else (site.nome + " – Associazione antiracket di Pianura") -%}
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titoloPagina }}</title>
+<meta name="description" content="{{ (excerpt or sottotitolo or site.descrizione) | striptags | truncate(160) }}">
+{%- if site.modalita_prova %}
+<meta name="robots" content="noindex, nofollow">
+{%- endif %}
+<meta property="og:title" content="{{ title or site.nome }}">
+<meta property="og:description" content="{{ (excerpt or sottotitolo or site.descrizione) | striptags | truncate(200) }}">
+<meta property="og:type" content="{{ 'article' if layout == 'layouts/articolo.njk' else 'website' }}">
+{%- if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+<link rel="icon" href="/assets/img/logo-pianura.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/public-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<a class="salta" href="#contenuto">Vai al contenuto</a>
+{%- if site.modalita_prova %}
+<div class="avviso-prova">Versione di prova del nuovo sito</div>
+{%- endif %}
+
+<div class="barra-sos">
+  <div class="contenitore">
+    <span>Sei vittima di estorsione o usura? Non sei solo. Chiamaci in modo riservato.</span>
+    <a href="tel:{{ site.numero_verde | replace(' ', '') }}">Numero verde {{ site.numero_verde }}</a>
+  </div>
+</div>
+
+<header class="testata">
+  <div class="contenitore">
+    <a class="marchio" href="/">
+      <img src="/assets/img/logo-pianura.svg" alt="Logo Associazione Antiracket Pianura per la Legalità, in memoria di Gigi e Paolo" width="182" height="236">
+      <span class="marchio-testo">
+        <span class="marchio-nome">{{ site.nome }}</span>
+        <span class="marchio-sotto">Associazione antiracket · APS</span>
+      </span>
+    </a>
+    <nav class="menu" aria-label="Menu principale">
+      {%- for voce in menu %}
+      <a href="{{ voce[0] }}"{% if page.url == voce[0] or (voce[0] != '/' and page.url.startsWith(voce[0])) %} aria-current="page"{% endif %}>{{ voce[1] }}</a>
+      {%- endfor %}
+      <a class="pulsante" href="/contatti/">Contatti</a>
+    </nav>
+    <details class="menu-mobile">
+      <summary>☰ Menu</summary>
+      <nav aria-label="Menu principale (mobile)">
+        {%- for voce in menu %}
+        <a href="{{ voce[0] }}">{{ voce[1] }}</a>
+        {%- endfor %}
+        <a href="/contatti/">Contatti</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="contenuto">
+{{ content | safe }}
+</main>
+
+<section class="rete" aria-label="Rete per la Legalità">
+  <div class="contenitore">
+    <img src="/assets/img/logo-rete.svg" alt="Logo Rete per la Legalità – Associazioni e Fondazioni contro il racket e l’usura" width="354" height="232" loading="lazy">
+    <p>Aderiamo alla <strong>Rete per la Legalità</strong>, la rete nazionale di associazioni e fondazioni contro il racket e l’usura.</p>
+  </div>
+</section>
+
+<footer class="piede">
+  <div class="contenitore">
+    <div>
+      <img class="piede-logo" src="/assets/img/logo-pianura.svg" alt="" width="182" height="236" loading="lazy">
+      <p style="margin:0">{{ site.nome_completo }}. {{ site.iscrizioni }}</p>
+    </div>
+    <div>
+      <h2>Contatti</h2>
+      <ul>
+        <li><a href="tel:{{ site.numero_verde | replace(' ', '') }}">Numero verde {{ site.numero_verde }}</a></li>
+        <li><a href="tel:{{ site.cellulare | replace(' ', '') }}">Cellulare {{ site.cellulare }}</a></li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li>PEC: {{ site.pec }}</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Approfondimenti</h2>
+      <ul>
+        <li><a href="/il-patto-antiracket/">Il Patto Antiracket</a></li>
+        <li><a href="/por-campania/">P.O.R. Campania</a></li>
+        <li><a href="/legge-124-2017/">Legge 124/2017</a></li>
+        <li><a href="/videogallery/">Videogallery</a></li>
+        {%- if site.facebook %}<li><a href="{{ site.facebook }}">Facebook</a></li>{% endif %}
+        {%- if site.instagram %}<li><a href="{{ site.instagram }}">Instagram</a></li>{% endif %}
+        {%- if site.youtube %}<li><a href="{{ site.youtube }}">YouTube</a></li>{% endif %}
+      </ul>
+    </div>
+  </div>
+  <div class="piede-fondo">
+    <div class="contenitore">
+      <span>© {{ anno }} Antiracket Pianura</span>
+      <a href="/admin/">Area riservata</a>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/sito.js" defer></script>
+</body>
+</html>
