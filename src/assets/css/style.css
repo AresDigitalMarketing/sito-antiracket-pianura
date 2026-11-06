@@ -165,7 +165,7 @@ a.scheda:hover .scheda-titolo { color: var(--blu); }
 .piede-alto { display: flex; align-items: center; gap: 28px; padding-block: 48px 36px; border-bottom: 1px solid #2C5590; }
 .piede-testo { margin: 0; max-width: 860px; line-height: 1.6; }
 .piede-testo strong { color: var(--bianco); }
-.piede-colonne { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; padding-block: 36px 44px; }
+.piede-colonne { display: grid; grid-template-columns: repeat(2, minmax(0, 340px)); justify-content: center; gap: 32px 120px; padding-block: 36px 44px; }
 @media (max-width: 640px) { .piede-alto { flex-direction: column; align-items: flex-start; } .piede-colonne { grid-template-columns: 1fr; } }
 .piede a { color: var(--bianco); }
 .piede h2 { font-family: var(--sans); font-size: 17px; color: var(--bianco); margin-bottom: 10px; }
