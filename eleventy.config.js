@@ -36,6 +36,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("documenti", raccolta("documenti"));
 
   eleventyConfig.addGlobalData("anno", () => new Date().getFullYear());
+  // Numero di versione: obbliga il browser a scaricare stile e script aggiornati dopo ogni modifica
+  const versione = Date.now().toString(36);
+  eleventyConfig.addGlobalData("versione", () => versione);
 
   // Filtri usati nei modelli
   eleventyConfig.addFilter("dataIt", (d) => (d ? fmtData.format(new Date(d)) : ""));
