@@ -3,7 +3,7 @@ title: "Presentato “La scelta di Giacomo”, il primo Fumetto Antiracket di Pi
 date: 2026-01-30
 image: /uploads/notizie/fumetto-antiracket-la-scelta-di-giacomo.webp
 image_alt: ""
-excerpt: "Mercoledì 21 gennaio 2026, presso l’Istituto Comprensivo “Ferdinando Russo”, l’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” ha presentato ufficialmente il suo primo Fumetto Antiracket, dal titolo…"
+excerpt: "Mercoledì 21 gennaio 2026, presso l’Istituto Comprensivo “Ferdinando Russo”, l’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” ha presentato ufficialmente il suo primo Fumetto Antiracket, dal titolo “La scelta di Giacomo”, un progetto editoriale e culturale pensato per portare i valori della legalità, della denuncia e del coraggio direttamente ai più giovani."
 ---
 Mercoledì 21 gennaio 2026, presso l’**Istituto Comprensivo “Ferdinando Russo”**, l’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” ha presentato ufficialmente il suo primo **Fumetto Antiracket**, dal titolo **“La scelta di Giacomo”**, un progetto editoriale e culturale pensato per portare i valori della legalità, della denuncia e del coraggio direttamente ai più giovani.
 

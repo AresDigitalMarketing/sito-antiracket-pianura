@@ -3,7 +3,7 @@ title: "“Il profumo della libertà”, il nuovo Fumetto Antiracket presentato 
 date: 2026-04-21
 image: /uploads/notizie/fumetto-antiracket-la-storia-di-sandro.webp
 image_alt: ""
-excerpt: "Sarà presentato il 23 aprile 2026, alle ore 11:00, presso la Biblioteca Storica del Liceo Statale “Eleonora Pimentel Fonseca” di Napoli, il nuovo Fumetto Antiracket dell’associazione “Pianura per la Legalità in memoria di Gigi e…"
+excerpt: "Sarà presentato il 23 aprile 2026, alle ore 11:00, presso la Biblioteca Storica del Liceo Statale “Eleonora Pimentel Fonseca” di Napoli, il nuovo Fumetto Antiracket dell’associazione “Pianura per la Legalità in memoria di Gigi e Paolo” dal titolo “Il profumo della libertà – La storia di Sandro“."
 ---
 Sarà presentato il 23 aprile 2026, alle ore 11:00, presso la Biblioteca Storica del Liceo Statale “Eleonora Pimentel Fonseca” di Napoli, il nuovo **Fumetto Antiracket** dell’associazione “Pianura per la Legalità in memoria di Gigi e Paolo” dal titolo “**Il profumo della libertà – La storia di Sandro**“. L’opera, ispirata a una storia vera di liberazione dal ricatto estorsivo della camorra, rientra nel più ampio impegno dell’associazione nella promozione della cultura della legalità economica, con particolare attenzione al coinvolgimento delle nuove generazioni, e si propone come uno strumento innovativo e diretto per raccontare ai giovani il valore della denuncia, della libertà e del coraggio civile.
 

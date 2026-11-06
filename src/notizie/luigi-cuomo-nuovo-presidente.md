@@ -3,7 +3,7 @@ title: "Pianura per la Legalità: Luigi Cuomo eletto nuovo Presidente"
 date: 2025-10-30
 image: /uploads/notizie/luigi-cuomo-nuovo-presidente.webp
 image_alt: ""
-excerpt: "Nuova presidenza per l’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo”: nella serata del 29 ottobre 2025 si è svolta l’assemblea generale dei soci, un appuntamento particolarmente significativo che ha…"
+excerpt: "Nuova presidenza per l’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo”: nella serata del 29 ottobre 2025 si è svolta l’assemblea generale dei soci, un appuntamento particolarmente significativo che ha segnato la conclusione di una fase storica e l’avvio di un nuovo corso per una delle realtà simbolo dell’impegno contro racket e usura nel territorio napoletano."
 ---
 Nuova presidenza per l’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo”: nella serata del 29 ottobre 2025 si è svolta l’**assemblea generale dei soci**, un appuntamento particolarmente significativo che ha segnato la conclusione di una fase storica e l’avvio di un nuovo corso per una delle realtà simbolo dell’impegno contro racket e usura nel territorio napoletano.
 

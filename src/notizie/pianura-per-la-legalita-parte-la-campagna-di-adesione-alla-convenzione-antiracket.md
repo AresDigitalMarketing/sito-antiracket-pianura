@@ -3,7 +3,7 @@ title: "Parte la campagna di adesione alla nuova Convenzione Antiracket"
 date: 2025-10-01
 image: /uploads/notizie/pianura-per-la-legalita-parte-la-campagna-di-adesione-alla-convenzione-antiracket.webp
 image_alt: ""
-excerpt: "È partita ufficialmente la campagna di adesione alla nuova Convenzione Antiracket, uno strumento pensato dall’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” per tutte le attività economiche non…"
+excerpt: "È partita ufficialmente la campagna di adesione alla nuova Convenzione Antiracket, uno strumento pensato dall’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” per tutte le attività economiche non edili."
 ---
 È partita ufficialmente la campagna di adesione alla nuova **Convenzione Antiracket**, uno strumento pensato dall’associazione antiracket “Pianura per la Legalità in memoria di Gigi e Paolo” per tutte le attività economiche **non edili**. Rappresenta una rete di prevenzione, tutela e protezione sociale ed economica contro racket, estorsioni, pressioni criminali e intimidazioni.
 

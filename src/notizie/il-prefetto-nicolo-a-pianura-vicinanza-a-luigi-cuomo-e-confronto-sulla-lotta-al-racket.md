@@ -3,7 +3,7 @@ title: "Il prefetto Nicolò a Pianura: vicinanza a Luigi Cuomo e confronto sulla
 date: 2025-05-17
 image: /uploads/notizie/il-prefetto-nicolo-a-pianura-vicinanza-a-luigi-cuomo-e-confronto-sulla-lotta-al-racket.webp
 image_alt: ""
-excerpt: "Un segnale concreto di vicinanza istituzionale al mondo dell’antiracket e a chi, ogni giorno, è impegnato al fianco delle vittime di estorsione e usura: il Prefetto Maria Grazia Nicolò, Commissario Straordinario del Governo per…"
+excerpt: "Un segnale concreto di vicinanza istituzionale al mondo dell’antiracket e a chi, ogni giorno, è impegnato al fianco delle vittime di estorsione e usura: il Prefetto Maria Grazia Nicolò, Commissario Straordinario del Governo per il Coordinamento delle iniziative Antiracket e Antiusura, si è recata personalmente a Pianura presso la sede dell’associazione antiracket locale, dove ha incontrato Luigi Cuomo, Presidente Nazionale di SOS Impresa – Rete per la Legalità, e una rappresentanza dei dirigenti dell’associazione."
 ---
 Un segnale concreto di vicinanza istituzionale al mondo dell’antiracket e a chi, ogni giorno, è impegnato al fianco delle vittime di estorsione e usura: il Prefetto **Maria Grazia Nicolò**, Commissario Straordinario del Governo per il Coordinamento delle iniziative Antiracket e Antiusura, si è recata personalmente a Pianura presso la sede dell’associazione antiracket locale, dove ha incontrato **Luigi Cuomo**, Presidente Nazionale di **SOS Impresa – Rete per la Legalità**, e una rappresentanza dei dirigenti dell’associazione.
 
