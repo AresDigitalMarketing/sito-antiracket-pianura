@@ -1,7 +1,9 @@
 ---
-title: "Sit-in di solidarietà"
+title: Sit-in di solidarietà
+titolo_righe: ''
 date: 2025-10-01
-cover: /uploads/fotogallery/sit-in-di-solidarieta/01.webp
+cover: /uploads/fotogallery/sit-in-di-solidarieta/04.webp
+descrizione: ''
 foto:
   - /uploads/fotogallery/sit-in-di-solidarieta/01.webp
   - /uploads/fotogallery/sit-in-di-solidarieta/02.webp
