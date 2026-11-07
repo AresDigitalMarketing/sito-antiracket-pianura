@@ -1,7 +1,9 @@
 ---
-title: "20 anni di antiracket a Pianura"
+title: 20 anni di antiracket a Pianura
+titolo_righe: ''
 date: 2023-03-20
-cover: /uploads/fotogallery/20-anni-di-antiracket-a-pianura/01.webp
+cover: /uploads/fotogallery/20-anni-di-antiracket-a-pianura/05.webp
+descrizione: ''
 foto:
   - /uploads/fotogallery/20-anni-di-antiracket-a-pianura/01.webp
   - /uploads/fotogallery/20-anni-di-antiracket-a-pianura/02.webp
