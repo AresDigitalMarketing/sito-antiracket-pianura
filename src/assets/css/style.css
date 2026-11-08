@@ -109,7 +109,7 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
 .apertura-testo { flex: 999 1 540px; min-width: 0; display: flex; flex-direction: column; gap: 22px; }
 .occhiello { margin: 0; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--giallo); font-weight: 600; }
 .apertura h1 { color: var(--bianco); font-size: clamp(40px, 6vw, 64px); line-height: 1.05; }
-.apertura p.intro { margin: 0; font-size: 20px; line-height: 1.55; max-width: 620px; color: #F2F6FC; }
+.apertura p.intro { margin: 0; font-size: 20px; line-height: 1.55; color: #F2F6FC; }
 .numeri { flex: 1 1 300px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #4A85CC; border: 1px solid #4A85CC; }
 .numeri div { background: var(--blu); padding: 20px; }
 .numeri strong { display: block; font-family: var(--serif); font-size: 34px; }
