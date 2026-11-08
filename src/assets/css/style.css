@@ -246,7 +246,7 @@ dialog.lightbox::backdrop { background: rgba(8, 18, 38, .94); }
 /* Anteprime dei comunicati: documento intero, tutte della stessa dimensione */
 .scheda-img.documento { aspect-ratio: 4 / 5; object-fit: contain; background: var(--bianco); padding: 10px; border-bottom: 1px solid var(--bordo); }
 .scheda-img.documento.vuota { padding: 0; }
-.scheda-corpo.compatto { padding: 14px 18px 16px; gap: 4px; }
+.scheda-corpo.compatto { padding: 14px 18px 16px; gap: 4px; text-align: center; align-items: center; }
 .scheda-corpo.compatto .scheda-titolo { font-size: 18px !important; line-height: 1.3; }
 .scheda-corpo.compatto .scheda-azione { font-size: 14px; }
 
