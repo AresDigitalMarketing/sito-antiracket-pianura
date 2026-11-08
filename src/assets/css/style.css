@@ -55,9 +55,6 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
 .salta:focus { left: 16px; top: 16px; background: var(--bianco); padding: 12px 16px; z-index: 100; }
 
 /* Barra di emergenza */
-.barra-sos { background: var(--verde); color: var(--bianco); font-size: 15px; }
-.barra-sos .contenitore { display: flex; flex-wrap: wrap; gap: 4px 24px; justify-content: space-between; padding-block: 10px; }
-.barra-sos a { color: var(--bianco); font-weight: 700; text-decoration: none; }
 
 /* Intestazione */
 .testata { background: var(--bianco); border-bottom: 1px solid var(--bordo); }
