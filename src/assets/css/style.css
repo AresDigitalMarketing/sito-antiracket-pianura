@@ -62,7 +62,8 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
 .marchio { display: flex; align-items: center; gap: 14px; text-decoration: none; }
 .marchio img { height: 112px; width: auto; }
 .marchio-testo { display: flex; flex-direction: column; }
-.marchio-nome { font-family: var(--serif); font-weight: 700; font-size: 46px; color: var(--blu-scuro); line-height: 1.05; }
+.marchio-nome { font-family: var(--serif); font-weight: 700; font-size: 34px; color: var(--blu-scuro); line-height: 1.1; white-space: nowrap; }
+.marchio-nome .a-capo { display: none; }
 .marchio-sotto { font-size: 15px; color: var(--testo-3); letter-spacing: .04em; }
 .menu { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-weight: 500; font-size: 16px; }
 .menu a { text-decoration: none; padding: 8px 0; }
@@ -78,7 +79,14 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
   .menu-mobile nav { display: flex; flex-direction: column; margin-top: 8px; }
   .menu-mobile nav a { padding: 12px 4px; border-bottom: 1px solid var(--bordo); text-decoration: none; }
   .marchio img { height: 64px; }
-  .marchio-nome { font-size: 28px; text-wrap: balance; }
+  .marchio-nome { font-size: 26px; white-space: normal; }
+  .marchio-nome .a-capo { display: inline; }
+}
+@media (max-width: 600px) {
+  .marchio { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .marchio img { height: 72px; }
+  .marchio-nome { font-size: 24px; }
+  .marchio-sotto { font-size: 13px; }
 }
 
 /* Pulsanti */
