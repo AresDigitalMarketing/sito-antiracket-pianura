@@ -2,6 +2,7 @@
 {
   "name": "antiracket-pianura",
   "compatibility_date": "2026-09-01",
+  "workers_dev": true,
   "routes": [
     { "pattern": "www.antiracketpianura.it", "custom_domain": true }
   ],
