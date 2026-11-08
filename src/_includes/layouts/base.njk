@@ -28,6 +28,22 @@
 <link rel="icon" href="/assets/img/logo-pianura.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/public-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/style.css?v={{ versione }}">
+{%- if site.url %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{%- endif %}
+<!-- Google Consent Mode v2 (tutto negato finché non c'è consenso) + Google Tag Manager -->
+<script>
+window.SITO_TRACCIAMENTO={gtm:"{{ site.gtm_id }}",pixel:"{{ site.meta_pixel_id }}"};
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
+gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);
+try{var c=JSON.parse(localStorage.getItem('apl_consent_v1'));if(c&&Date.now()-c.t<15552e6)gtag('consent','update',{analytics_storage:c.s?'granted':'denied',ad_storage:c.m?'granted':'denied',ad_user_data:c.m?'granted':'denied',ad_personalization:c.m?'granted':'denied'})}catch(e){}
+{%- if site.gtm_id %}
+(function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','{{ site.gtm_id }}');
+{%- endif %}
+</script>
+<script src="/assets/js/consenso.js?v={{ versione }}" defer></script>
 </head>
 <body>
 <a class="salta" href="#contenuto">Vai al contenuto</a>
@@ -88,7 +104,12 @@
   <div class="piede-fondo">
     <div class="contenitore">
       <span>© {{ anno }} Antiracket Pianura</span>
-      <a href="/admin/">Area riservata</a>
+      <nav class="piede-link" aria-label="Note legali">
+        <a href="/privacy-policy/">Privacy policy</a>
+        <a href="/cookie-policy/">Cookie policy</a>
+        <a href="#" data-cookie-prefs>Preferenze cookie</a>
+        <a href="/admin/">Area riservata</a>
+      </nav>
     </div>
   </div>
 </footer>

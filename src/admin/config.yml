@@ -208,6 +208,11 @@ collections:
           - { label: Pagina Facebook (indirizzo), name: facebook, widget: string, required: false }
           - { label: Profilo Instagram (indirizzo), name: instagram, widget: string, required: false }
           - { label: Canale YouTube (indirizzo), name: youtube, widget: string, required: false }
+          - { label: Indirizzo ufficiale del sito, name: url, widget: string, hint: "Es. https://www.antiracketpianura.it – senza barra finale. Serve a Google e alla mappa del sito." }
+          - { label: Codice fiscale, name: codice_fiscale, widget: string }
+          - { label: Sede, name: sede, widget: string, hint: "Compare nella privacy policy e nella cookie policy." }
+          - { label: ID Google Tag Manager, name: gtm_id, widget: string, required: false, hint: "Es. GTM-XXXXXXX. Lascia vuoto per disattivare Tag Manager." }
+          - { label: ID Pixel di Meta, name: meta_pixel_id, widget: string, required: false, hint: "Solo numeri. Lascia vuoto per disattivare il Pixel." }
           - label: Modalità di prova
             name: modalita_prova
             widget: boolean
