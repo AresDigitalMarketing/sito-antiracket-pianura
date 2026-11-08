@@ -68,7 +68,8 @@ h2 { font-size: clamp(28px, 4vw, 36px); color: var(--blu); }
 .menu { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-weight: 500; font-size: 16px; }
 .menu a { text-decoration: none; padding: 8px 0; }
 .menu a[aria-current="page"] { color: var(--verde); font-weight: 700; }
-.menu .pulsante { padding: 10px 16px; }
+.menu .pulsante { padding: 10px 16px; margin-left: auto; }
+@media (min-width: 1241px) { .menu { flex: 1 1 100%; } }
 .menu-mobile { display: none; }
 
 @media (max-width: 1240px) {
