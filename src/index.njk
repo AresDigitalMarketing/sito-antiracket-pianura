@@ -16,25 +16,6 @@ layout: layouts/base.njk
   </div>
 </section>
 
-<section class="sezione" aria-labelledby="cosa">
-  <div class="contenitore">
-    <h2 id="cosa" style="margin-bottom:28px">Cosa facciamo</h2>
-    <div class="griglia tre">
-      {%- for a in home.attivita %}
-      <div class="attivita">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#007A3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          {%- if loop.index == 1 %}<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>
-          {%- elif loop.index == 2 %}<path d="M4 7h16v12H4z"/><path d="M9 7V5h6v2"/><path d="M4 12h16"/>
-          {%- else %}<path d="M3 10l9-5 9 5-9 5z"/><path d="M7 12v4c3 2 7 2 10 0v-4"/>{% endif %}
-        </svg>
-        <h3>{{ a.titolo }}</h3>
-        <p>{{ a.testo }}</p>
-      </div>
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-
 {%- if collections.notizie.length %}
 <section class="sezione" style="padding-top:24px" aria-labelledby="notizie">
   <div class="contenitore">
@@ -63,23 +44,19 @@ layout: layouts/base.njk
 </section>
 {%- endif %}
 
-<section class="sezione bianca" aria-labelledby="convenzione">
-  <div class="contenitore due-colonne">
-    <div style="display:flex;flex-direction:column;gap:18px">
-      <p class="occhiello" style="color:var(--verde)">Per commercianti e imprese</p>
-      <h2 id="convenzione" style="font-size:40px;color:var(--blu-scuro)">La Convenzione Antiracket</h2>
-      <p style="margin:0;font-size:18px;color:var(--testo-2)">Nata dall’esperienza decennale del Patto Antiracket con le imprese edili, aiuta gli operatori economici a respingere le richieste estorsive in collaborazione con l’associazione e le Forze dell’Ordine. L’adesione è completamente gratuita, cartellone incluso.</p>
-      <div class="pulsanti">
-        <a class="pulsante" href="/convenzione-antiracket/">Scopri come aderire</a>
-        <a class="pulsante contorno" href="/il-patto-antiracket/">Il Patto per le imprese edili</a>
-      </div>
-    </div>
-    <ol class="passi">
-      <li><b class="n">1</b><div><strong>Invia la richiesta</strong><span>Scrivi a {{ site.email }} con recapiti e PEC dell’impresa, visura camerale e documenti del titolare.</span></div></li>
-      <li><b class="n">2</b><div><strong>Valutazione in 15 giorni</strong><span>Una commissione esamina la domanda e ti comunica l’esito.</span></div></li>
-      <li><b class="n">3</b><div><strong>Firma e ritira il cartellone</strong><span>In una delle nostre sedi firmi la Convenzione e ricevi il cartellone da esporre nella tua attività.</span></div></li>
-    </ol>
-  </div>
+<section class="adesioni" aria-label="Convenzione e Patto Antiracket">
+  <a class="adesione blu" href="/convenzione-antiracket/">
+    <small>Per i commercianti</small>
+    <strong>Convenzione Antiracket</strong>
+    <span>Un’iniziativa gratuita rivolta agli operatori economici per prevenire racket e usura e aiutare chi riceve richieste estorsive, insieme all’associazione e alle Forze dell’Ordine. Cartellone incluso.</span>
+    <em>Scopri come aderire →</em>
+  </a>
+  <a class="adesione verde" href="/il-patto-antiracket/">
+    <small>Per le imprese edili</small>
+    <strong>Patto Antiracket</strong>
+    <span>Adesione volontaria e gratuita: l’impresa si impegna a respingere ogni richiesta illecita e a denunciare, l’associazione la accompagna e la sostiene.</span>
+    <em>Scopri il Patto →</em>
+  </a>
 </section>
 
 <section class="sezione" aria-labelledby="storia">

@@ -286,3 +286,18 @@ dialog.lightbox::backdrop { background: rgba(8, 18, 38, .94); }
 .ck-opts b { color: var(--testo); }
 .ck-opts input { margin-top: 4px; width: 18px; height: 18px; flex: none; accent-color: var(--blu); }
 @media (max-width: 520px) { .ck { left: 10px; right: 10px; bottom: 10px; padding: 20px 16px 14px; } }
+
+/* Home: Convenzione e Patto Antiracket, divisi a metà */
+.adesioni { display: grid; grid-template-columns: 1fr 1fr; }
+.adesione { display: flex; flex-direction: column; gap: 12px; padding: 64px max(24px, calc((100vw - var(--larghezza)) / 2 + 24px)); color: var(--bianco); text-decoration: none; }
+.adesione.blu { background: var(--blu); padding-right: 56px; }
+.adesione.verde { background: var(--verde); padding-left: 56px; }
+.adesione:hover { color: var(--bianco); filter: brightness(.94); }
+.adesione small { font-size: 15px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--giallo); }
+.adesione strong { font-family: var(--serif); font-size: clamp(32px, 3.2vw, 42px); font-weight: 700; line-height: 1.08; }
+.adesione span { font-size: 18px; line-height: 1.55; max-width: 500px; }
+.adesione em { font-style: normal; font-weight: 700; margin-top: 6px; }
+@media (max-width: 760px) {
+  .adesioni { grid-template-columns: 1fr; }
+  .adesione, .adesione.blu, .adesione.verde { padding: 44px 24px; }
+}

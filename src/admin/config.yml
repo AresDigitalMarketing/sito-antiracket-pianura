@@ -178,14 +178,6 @@ collections:
           - { label: Occhiello (testo giallo in alto), name: occhiello, widget: string }
           - { label: Titolo grande, name: titolo, widget: text, hint: "Vai a capo dove vuoi che il titolo cambi riga." }
           - { label: Testo di presentazione, name: testo, widget: text }
-          - label: Cosa facciamo (3 riquadri)
-            name: attivita
-            widget: list
-            min: 3
-            max: 3
-            fields:
-              - { label: Titolo, name: titolo, widget: string }
-              - { label: Testo, name: testo, widget: text }
           - label: Tappe della storia
             name: tappe
             widget: list
