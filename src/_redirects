@@ -6,3 +6,5 @@
 /feed/*                               /notizie/              301
 /nuova-campagna-comunicazione/          /2026/07/01/nuova-campagna-comunicazione/   301
 /nuova-campagna-comunicazione          /2026/07/01/nuova-campagna-comunicazione/   301
+/2026/06/30/nuova-campagna-comunicazione/   /2026/07/01/nuova-campagna-comunicazione/   301
+/2026/06/30/nuova-campagna-comunicazione    /2026/07/01/nuova-campagna-comunicazione/   301
