@@ -30,20 +30,6 @@ layout: layouts/base.njk
 </section>
 {%- endif %}
 
-{%- if collections.comunicati.length %}
-<section class="sezione" style="padding-top:24px" aria-labelledby="comunicati">
-  <div class="contenitore">
-    <div class="sezione-testa">
-      <h2 id="comunicati">Ultimi comunicati stampa</h2>
-      <a href="/comunicati-stampa/">Tutti i comunicati →</a>
-    </div>
-    <div class="griglia stretta">
-      {%- for c in collections.comunicati | primi(4) %}{{ s.comunicato(c) }}{% endfor %}
-    </div>
-  </div>
-</section>
-{%- endif %}
-
 <section class="adesioni" aria-label="Convenzione e Patto Antiracket">
   <a class="adesione blu" href="/convenzione-antiracket/">
     <small>Per i commercianti</small>
@@ -58,6 +44,20 @@ layout: layouts/base.njk
     <em>Scopri il Patto →</em>
   </a>
 </section>
+
+{%- if collections.comunicati.length %}
+<section class="sezione" style="padding-top:24px" aria-labelledby="comunicati">
+  <div class="contenitore">
+    <div class="sezione-testa">
+      <h2 id="comunicati">Ultimi comunicati stampa</h2>
+      <a href="/comunicati-stampa/">Tutti i comunicati →</a>
+    </div>
+    <div class="griglia stretta">
+      {%- for c in collections.comunicati | primi(4) %}{{ s.comunicato(c) }}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
 
 <section class="sezione" aria-labelledby="storia">
   <div class="contenitore due-colonne">
