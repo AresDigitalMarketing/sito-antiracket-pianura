@@ -4,3 +4,5 @@
 /wp-login.php                         /admin/                302
 /category/*                           /notizie/              301
 /feed/*                               /notizie/              301
+/nuova-campagna-comunicazione/          /2026/07/01/nuova-campagna-comunicazione/   301
+/nuova-campagna-comunicazione          /2026/07/01/nuova-campagna-comunicazione/   301
