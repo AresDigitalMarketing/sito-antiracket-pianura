@@ -32,4 +32,5 @@ L’intervento si sviluppa mediante attività integrate di assistenza, consulenz
 - Ampia diffusione delle attività di comunicazione e sensibilizzazione, con il coinvolgimento di un numero significativo di destinatari a livello regionale.
 
 Tramite il link sottostante è possibile consultare la pagina dedicata:
+
 [https://servizi-digitali.regione.campania.it/VittimeUsura#documenti](https://servizi-digitali.regione.campania.it/VittimeUsura#documenti)
