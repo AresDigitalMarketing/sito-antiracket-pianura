@@ -1,6 +1,7 @@
 ---
 title: La nostra storia
-sottotitolo: Pianura per la Legalità in memoria di Gigi e Paolo. Iscritta nello Speciale Elenco tenuto presso la Prefettura di Napoli al numero d’ordine 6, ai sensi del D.M. n. 614/1994, del D.M. n. 451/1999 e successive modificazioni.
+titolo_righe: ''
+sottotitolo: ''
 image: ''
 image_alt: ''
 galleria: []
