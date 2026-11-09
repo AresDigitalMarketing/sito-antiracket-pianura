@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <div class="contenitore pagina-testa">
   <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › {{ title }}</nav>
   <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
-  {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
+  {%- if sottotitolo %}<p>{{ sottotitolo | replace(r/\.\s*$/, "") }}</p>{% endif %}
 </div>
 <div class="contenitore" style="padding-bottom:72px">
   {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin:0 auto 32px;max-width:1000px;width:100%">{% endif %}
