@@ -191,7 +191,7 @@ a.scheda:hover .scheda-titolo { color: var(--blu); }
 .testo h2 { font-size: 30px; margin: 40px 0 12px; }
 .testo h3 { font-size: 23px; margin: 32px 0 10px; color: var(--blu-scuro); }
 .testo p, .testo ul, .testo ol { margin: 0 0 18px; }
-.testo blockquote { margin: 24px 0; padding: 18px 24px; background: var(--bianco); border-radius: var(--raggio); font-family: var(--serif); font-size: 22px; color: var(--blu-scuro); }
+.testo blockquote { margin: 32px auto; max-width: 900px; text-align: center; padding: 22px 32px; background: var(--bianco); border-radius: var(--raggio); font-family: var(--serif); font-size: 22px; color: var(--blu-scuro); }
 .testo img { border-radius: var(--raggio); margin: 24px 0; }
 .testo a { font-weight: 600; }
 .testo .nota { font-size: 16px; color: var(--testo-3); }
