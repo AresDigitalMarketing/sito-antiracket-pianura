@@ -8,7 +8,7 @@ layout: layouts/base.njk
   {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
 </div>
 <div class="contenitore" style="padding-bottom:72px">
-  {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin-bottom:32px;max-width:960px;width:100%">{% endif %}
+  {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin:0 auto 32px;max-width:1000px;width:100%">{% endif %}
   <div class="testo larga">{{ content | safe }}</div>
   {%- if documenti_categoria %}
     {%- set elenco = collections.documenti | perCategoria(documenti_categoria) %}
