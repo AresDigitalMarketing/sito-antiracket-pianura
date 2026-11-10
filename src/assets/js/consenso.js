@@ -54,7 +54,7 @@
     } else if (/\.pdf($|\?)/i.test(h)) {
       var nome = h.split('/').pop().split('?')[0];
       dl.push({ event: 'download_documento', documento: nome });
-      window.fbq && fbq('trackCustom', 'DownloadDocumento', { documento: nome });
+      window.fbq && fbq('track', 'ViewContent', { tipo: 'download_documento', documento: nome });
     }
   }, true);
 
