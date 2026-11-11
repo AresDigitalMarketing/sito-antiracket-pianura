@@ -1,4 +1,6 @@
 # Vecchi indirizzi del sito WordPress → nuovi indirizzi
+/legge-124-2017/                      /legge-124/            301
+/legge-124-2017                       /legge-124/            301
 /fotogallery/nggallery/album/:album   /fotogallery/:album/   301
 /wp-admin/*                           /admin/                302
 /wp-login.php                         /admin/                302
