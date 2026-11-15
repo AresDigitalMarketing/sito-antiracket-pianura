@@ -1,5 +1,8 @@
 ---
 title: "Patto Antiracket I.C. “Massimo Troisi”"
+titolo_righe: |-
+  Patto Antiracket
+  I.C. “Massimo Troisi”
 date: 2025-09-01
 cover: /uploads/fotogallery/patto-antiracket-i-c-massimo-troisi/01.webp
 foto:

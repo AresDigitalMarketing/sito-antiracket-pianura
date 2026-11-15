@@ -98,7 +98,7 @@ collections:
       default: { field: date, direction: descending }
     fields:
       - { label: Titolo dell’album, name: title, widget: string }
-      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
+      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo: riscrivi il titolo andando a capo dove preferisci. Vale sia per la pagina dell’album sia per la sua scheda nella pagina Fotogallery." }
       - { label: Data dell’evento, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD, hint: "Serve a ordinare gli album: i più recenti compaiono per primi." }
       - { label: Foto di copertina, name: cover, widget: image, required: false, hint: "Se non la scegli, viene usata la prima foto dell’album." }
       - { label: Descrizione breve, name: descrizione, widget: text, required: false }

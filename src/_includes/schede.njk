@@ -31,7 +31,7 @@
 <a class="scheda" href="{{ a.url }}">
   {{ immagine(a.data.cover or (a.data.foto[0] if a.data.foto else ""), "") }}
   <div class="scheda-corpo">
-    <span class="scheda-titolo">{{ a.data.title }}</span>
+    <span class="scheda-titolo" style="white-space: pre-line">{{ a.data.titolo_righe or a.data.title }}</span>
     <span class="scheda-azione">{{ a.data.foto | length if a.data.foto else 0 }} foto · Apri l’album →</span>
   </div>
 </a>
