@@ -1,6 +1,8 @@
 ---
 title: Sit-in di solidarietà per Luigi Cuomo
-titolo_righe: ''
+titolo_righe: |-
+  Sit-in di solidarietà per
+  Luigi Cuomo
 date: 2025-10-01
 cover: /uploads/fotogallery/sit-in-di-solidarieta/04.webp
 descrizione: ''
