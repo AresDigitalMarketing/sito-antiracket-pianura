@@ -7,7 +7,8 @@
   ["/por-campania/", "P.O.R. Campania"],
   ["/legge-124/", "Legge 124/2017"],
   ["/fotogallery/", "Fotogallery"],
-  ["/videogallery/", "Videogallery"]
+  ["/videogallery/", "Videogallery"],
+  ["/contatti/", "Contatti"]
 ] -%}
 {%- set titoloPagina = (title + " – " + site.nome) if title else (site.nome + " – Associazione antiracket di Pianura") -%}
 <!doctype html>
@@ -75,7 +76,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {%- for voce in menu %}
       <a href="{{ voce[0] }}"{% if page.url == voce[0] or (voce[0] != '/' and page.url.startsWith(voce[0])) %} aria-current="page"{% endif %}>{{ voce[1] }}</a>
       {%- endfor %}
-      <a class="pulsante" href="/contatti/">Contatti</a>
     </nav>
     <details class="menu-mobile">
       <summary>☰ Menu</summary>
@@ -83,7 +83,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {%- for voce in menu %}
         <a href="{{ voce[0] }}">{{ voce[1] }}</a>
         {%- endfor %}
-        <a href="/contatti/">Contatti</a>
       </nav>
     </details>
   </div>
