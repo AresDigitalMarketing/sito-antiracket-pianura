@@ -1,4 +1,10 @@
 # Vecchi indirizzi del sito WordPress → nuovi indirizzi
+/fotogallery/presentazione-fumetto-la-scelta-di-giacomo/ /fotogallery/presentazione-la-scelta-di-giacomo/   301
+/fotogallery/presentazione-fumetto-la-scelta-di-giacomo /fotogallery/presentazione-la-scelta-di-giacomo/   301
+/fotogallery/patto-antiracket-i-c-massimo-troisi/      /fotogallery/patto-antiracket-massimo-troisi/   301
+/fotogallery/patto-antiracket-i-c-massimo-troisi       /fotogallery/patto-antiracket-massimo-troisi/   301
+/fotogallery/20-anni-di-antiracket-a-pianura/          /fotogallery/ventennale-antiracket/   301
+/fotogallery/20-anni-di-antiracket-a-pianura           /fotogallery/ventennale-antiracket/   301
 /legge-124-2017/                      /legge-124/            301
 /legge-124-2017                       /legge-124/            301
 /fotogallery/nggallery/album/:album   /fotogallery/:album/   301
