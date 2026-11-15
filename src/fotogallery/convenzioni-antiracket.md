@@ -1,5 +1,5 @@
 ---
-title: "Convenzioni Antiracket"
+title: "Convenzioni Antiracket a Pianura"
 date: 2025-12-01
 cover: /uploads/fotogallery/convenzioni-antiracket/01.webp
 foto:
